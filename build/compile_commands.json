@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\feet.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\main\\feet.cpp",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/feet.cpp"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\feetTest.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\test\\feetTest.cpp",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/test/feetTest.cpp"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/src/gtest_main.cc"
+}
+]

@@ -1,0 +1,14 @@
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/CMakeFiles/executeTests.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/CMakeFiles/INSTALL.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/CMakeFiles/ALL_BUILD.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/CMakeFiles/ZERO_CHECK.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/CMakeFiles/INSTALL.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/CMakeFiles/ALL_BUILD.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/CMakeFiles/gmock.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/CMakeFiles/gtest.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/CMakeFiles/gtest_main.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/CMakeFiles/INSTALL.dir
+C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/googletest/googletest/CMakeFiles/ALL_BUILD.dir
