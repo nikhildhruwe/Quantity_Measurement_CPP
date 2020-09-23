@@ -11,4 +11,5 @@ public :
    Length(double, Unit);
    bool operator == (Length) const;
    bool operator == (Length *) const;
+   double addition (Length) const;
 };

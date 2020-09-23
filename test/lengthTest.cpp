@@ -135,7 +135,7 @@ TEST(centimeterTest, given_30cm_1feet_when_compared_should_return_true) {
 
 //3.3
 TEST(centimeterTest, given_90cm_1yard_when_compared_should_return_true) { 
-   Length cm(30, Unit::CENTIMETER), yard(1, Unit::YARD);
+   Length cm(90, Unit::CENTIMETER), yard(1, Unit::YARD);
    bool result = (cm == yard);
    ASSERT_TRUE(result);
 }
@@ -159,6 +159,13 @@ TEST(centimeterTest, given_1inch_and1cm_when_compared_should_return_false) {
    Length inch(1, Unit::INCH), cm(1, Unit::CENTIMETER);
    bool result = (inch == cm);
    ASSERT_FALSE(result);
+}
+
+// *** Addition of lengths ***
+TEST(lengthAddition, given_2inch_and_2inch_when_added_should_return_4inches){
+    Length inch1(2, Unit::INCH), inch2(2, Unit::INCH);
+    double result = inch1.addition(inch2);
+    ASSERT_EQ(result, 4);
 }
 
 int main(int argc, char **argv) {

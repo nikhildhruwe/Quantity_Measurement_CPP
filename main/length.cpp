@@ -17,3 +17,7 @@ bool Length ::operator== (Length *other) const { // reference check
         return false;
     return (this == other && this->value == other->value);
 }
+
+double Length ::addition (Length other) const{
+    return this->value + other.value;
+}
