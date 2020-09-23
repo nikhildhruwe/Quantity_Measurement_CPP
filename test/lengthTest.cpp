@@ -118,6 +118,21 @@ TEST(yardTest, given_1yard_and_3feet_when_compared_should_return_true) {
    ASSERT_TRUE(result);
 }
 
+// ****** Centimeter Comparision *******
+//3.1
+TEST(centimeterTest, given_2inch_and5cm_when_compared_should_return_true) { 
+   Length inch(2, Unit::INCH), cm(5, Unit::CENTIMETER);
+   bool result = (inch == cm);
+   ASSERT_TRUE(result);
+}
+
+//3.2
+TEST(centimeterTest, given_30cm_1feet_when_compared_should_return_true) { 
+   Length cm(30, Unit::CENTIMETER), feet(1, Unit::FEET);
+   bool result = (cm == feet);
+   ASSERT_TRUE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
