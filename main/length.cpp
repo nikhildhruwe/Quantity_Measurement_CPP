@@ -7,7 +7,7 @@ Length ::Length(double value, Unit unit){
 }
 
 bool Length ::operator== (Length other) const{ // value check & type check
-    return (this->value == other.value) && (this->unitType == other.unitType);
+    return (this->value == other.value && this->unitType == other.unitType);
 }
 
 bool Length::operator== (Length *other) const { // reference check
