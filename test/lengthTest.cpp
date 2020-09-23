@@ -191,10 +191,18 @@ TEST(lengthAddition, given_values_of_inches_and_cm_when_added_should_return_resu
 }
 
 //***** volume comparision ****
-TEST(volumeAddition, given_values_in_gallon_and_litres_when_compared_should_be_equal ){
+//5.1
+TEST(volumeAddition, given_values_in_gallon_and_litres_when_compared_should_be_true ){
    Length gallon(1, Unit::GALLON), litre(3.78, Unit::LITRE);
-   double result =  gallon.addition(litre);
-   ASSERT_EQ(result, 7.56);
+   bool result =  (gallon == litre);
+   ASSERT_TRUE(result);
+}
+
+//5.2
+TEST(volumeAddition, given_values_in_litres_and_ml_when_compared_should_be_true ){
+   Length litre(1, Unit::LITRE), ml(1000, Unit::ML);
+   bool result =  (litre == ml);
+   ASSERT_TRUE(result);
 }
 
 int main(int argc, char **argv) {
