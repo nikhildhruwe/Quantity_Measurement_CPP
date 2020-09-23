@@ -133,11 +133,18 @@ TEST(centimeterTest, given_30cm_1feet_when_compared_should_return_true) {
    ASSERT_TRUE(result);
 }
 
-//3.2
+//3.3
 TEST(centimeterTest, given_90cm_1yard_when_compared_should_return_true) { 
    Length cm(30, Unit::CENTIMETER), yard(1, Unit::YARD);
    bool result = (cm == yard);
    ASSERT_TRUE(result);
+}
+
+//3.4
+TEST(centimeterTest, given_1cm_1yard_when_compared_should_return_false) { 
+   Length cm(1, Unit::CENTIMETER), yard(1, Unit::YARD);
+   bool result = (cm == yard);
+   ASSERT_FALSE(result);
 }
 
 int main(int argc, char **argv) {
