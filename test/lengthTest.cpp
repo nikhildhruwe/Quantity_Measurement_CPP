@@ -161,6 +161,36 @@ TEST(centimeterTest, given_1inch_and1cm_when_compared_should_return_false) {
    ASSERT_FALSE(result);
 }
 
+// *** Addition of lengths ***
+//4.1
+TEST(lengthAddition, given_2inch_and_2inch_when_added_should_return_4inches){
+    Length inch1(2, Unit::INCH), inch2(2, Unit::INCH);
+    double result = inch1.addition(inch2);
+    ASSERT_EQ(result, 4);
+}
+
+//4.2
+TEST(lengthAddition, given_values_1feet_and_2inch_when_added_should_return_14inches){
+    Length feet(1, Unit::FEET), inch(2, Unit::INCH);
+    double result = feet.addition(inch);
+    ASSERT_EQ(result, 14);
+}
+
+//4.3
+TEST(lengthAddition, given_values_1feet_and_1feet_when_added_should_return_24inches){
+    Length feet1(1, Unit::FEET), feet2(1, Unit::FEET);
+    double result = feet1.addition(feet2);
+    ASSERT_EQ(result, 24);
+}
+
+//4.4
+TEST(lengthAddition, given_values_of_inches_and_cm_when_added_should_return_result_in_inches){
+    Length inch(2, Unit::INCH), cm(2.5, Unit::CENTIMETER);
+    double result = inch.addition(cm);
+    ASSERT_EQ(result, 3);
+}
+
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
