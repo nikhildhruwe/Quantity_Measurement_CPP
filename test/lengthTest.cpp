@@ -205,6 +205,14 @@ TEST(volumeComparision, given_values_in_litres_and_ml_when_compared_should_be_tr
    ASSERT_TRUE(result);
 }
 
+// *** Addition of volumes ****
+//6.1
+TEST(volumeAddition, given_values_in_litres_and_gallon_when_added_should_be_give_equivalent_result_in_litres){
+   Length gallon(1, Unit::GALLON), litre(3.78, Unit::LITRE);
+   double result =  gallon.addition(litre);
+   ASSERT_EQ(result, 7.56);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
