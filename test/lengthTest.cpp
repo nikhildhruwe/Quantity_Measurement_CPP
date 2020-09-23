@@ -75,29 +75,47 @@ TEST(inchTest, given_inch_and_feet_values_if_base_value_equal_should_return_true
    ASSERT_TRUE(result);
 }
 
-//2.1
+//            ****** Yard Comparision ******
+//2.1 
 TEST(yardTest, given_3feet_and_1yard_when_compared_should_return_true) { 
    Length feet(3, Unit::FEET), yard(1, Unit::YARD);
    bool result = (feet == yard);
    ASSERT_TRUE(result);
 }
 
+//2.2
 TEST(yardTest, given_1feet_and_1yard_when_compared_should_return_false) { 
    Length feet(1, Unit::FEET), yard(1, Unit::YARD);
    bool result = (feet == yard);
    ASSERT_FALSE(result);
 }
 
+//2.3
 TEST(yardTest, given_1inch_and_1yard_when_compared_should_return_false) { 
    Length inch(1, Unit::INCH), yard(1, Unit::YARD);
    bool result = (inch == yard);
    ASSERT_FALSE(result);
 }
 
+//2.4
 TEST(yardTest, given_1yard_and_36inch_when_compared_should_return_true) { 
    Length yard(1, Unit::YARD), inch(36, Unit::INCH);
    bool result = (yard == inch);
-   ASSERT_FALSE(result);
+      ASSERT_TRUE(result);
+}
+
+//2.5
+TEST(yardTest, given_36yard_and_1yard_when_compared_should_return_true) { 
+   Length inch(36, Unit::INCH), yard(1, Unit::YARD);
+   bool result = (inch == yard);
+   ASSERT_TRUE(result);
+}
+
+//2.6
+TEST(yardTest, given_1yard_and_3feet_when_compared_should_return_true) { 
+   Length yard(1, Unit::YARD), feet(3, Unit::FEET) ;
+   bool result = (yard == feet);
+   ASSERT_TRUE(result);
 }
 
 int main(int argc, char **argv) {
