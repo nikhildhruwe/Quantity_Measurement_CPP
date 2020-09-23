@@ -88,6 +88,12 @@ TEST(yardTest, given_1feet_and_1yard_when_compared_should_return_false) {
    ASSERT_FALSE(result);
 }
 
+TEST(yardTest, given_1inch_and_1yard_when_compared_should_return_false) { 
+   Length inch(1, Unit::INCH), yard(1, Unit::YARD);
+   bool result = (inch == yard);
+   ASSERT_FALSE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
