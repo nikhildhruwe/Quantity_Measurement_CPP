@@ -26,6 +26,12 @@ TEST(feetTest, given_same_type_should_return_true) {
     ASSERT_EQ(feet1, feet2);
 }
 
+//1.5
+TEST(feetTest, given_same_value_should_return_true) { 
+    Feet feet1(10, LENGTH), feet2(10, LENGTH);
+    ASSERT_EQ(feet1, feet2);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
