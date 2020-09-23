@@ -190,6 +190,12 @@ TEST(lengthAddition, given_values_of_inches_and_cm_when_added_should_return_resu
     ASSERT_EQ(result, 3);
 }
 
+//***** volume comparision ****
+TEST(volumeAddition, given_values_in_gallon_and_litres_when_compared_should_be_equal ){
+   Length gallon(1, Unit::GALLON), litre(3.78, Unit::LITRE);
+   double result =  gallon.addition(litre);
+   ASSERT_EQ(result, 7.56);
+}
 
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);

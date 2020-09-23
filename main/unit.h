@@ -2,7 +2,7 @@
 #include <iostream>
 
 enum UnitType {
-    LENGTH
+    LENGTH, VOLUME
 };
 
 class Unit{
@@ -15,4 +15,7 @@ public:
     static const Unit FEET;
     static const Unit YARD;
     static const Unit CENTIMETER;
+    static const Unit GALLON;
+    static const Unit LITRE;
+    static const Unit ML;
 };
