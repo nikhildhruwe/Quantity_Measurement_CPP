@@ -13,4 +13,5 @@ public:
     Unit(double, UnitType);
     static const Unit INCH;
     static const Unit FEET;
+    static const Unit YARD;
 };
