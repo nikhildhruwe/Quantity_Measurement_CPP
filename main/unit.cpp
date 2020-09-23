@@ -24,3 +24,8 @@ const Unit Unit::KG(1, WEIGHT);
 const Unit Unit::GRAM(0.001, WEIGHT);
 
 const Unit Unit::TONNE(1000, WEIGHT);
+
+const Unit Unit::FAHRENHEIT(1, TEMPERATURE);
+
+const Unit Unit::CELSIUS(1, TEMPERATURE);
+

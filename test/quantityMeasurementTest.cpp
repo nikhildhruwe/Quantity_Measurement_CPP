@@ -242,6 +242,13 @@ TEST(weightTest, given_values_1tonne_and_1000gram__should_be_equal_to_1001kg){
    ASSERT_EQ(result, 1001);
 }
 
+// *** Temperature Comparision ***
+TEST(temperatureTest, given_values_212F_100C_when_compared_shpuld_be_equal){
+   QuantityMeasurement celsius(100, Unit::CELSIUS), fahrenheit(212, Unit::FAHRENHEIT);
+   bool result = (celsius == fahrenheit);
+   ASSERT_TRUE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();

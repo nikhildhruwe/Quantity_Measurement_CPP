@@ -2,7 +2,7 @@
 #include <iostream>
 
 enum UnitType {
-    LENGTH, VOLUME, WEIGHT
+    LENGTH, VOLUME, WEIGHT, TEMPERATURE
 };
 
 class Unit{
@@ -21,4 +21,6 @@ public:
     static const Unit KG;
     static const Unit GRAM;
     static const Unit TONNE;
+    static const Unit FAHRENHEIT;
+    static const Unit CELSIUS;
 };

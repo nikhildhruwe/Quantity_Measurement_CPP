@@ -9,6 +9,11 @@ QuantityMeasurement ::QuantityMeasurement(double value, Unit unit){
 }
 
 bool QuantityMeasurement ::operator== (QuantityMeasurement other) const{ // value check & type check
+    if (other.unitType == TEMPERATURE){
+        other.value = (other.value- 32)*5/9;
+        return ((this->value == other.value) && (this->unitType == other.unitType));
+    }
+    
     return ((this->value == other.value) && (this->unitType == other.unitType));
 }
 
