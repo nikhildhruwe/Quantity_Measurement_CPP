@@ -133,6 +133,13 @@ TEST(centimeterTest, given_30cm_1feet_when_compared_should_return_true) {
    ASSERT_TRUE(result);
 }
 
+//3.2
+TEST(centimeterTest, given_90cm_1yard_when_compared_should_return_true) { 
+   Length cm(30, Unit::CENTIMETER), yard(1, Unit::YARD);
+   bool result = (cm == yard);
+   ASSERT_TRUE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
