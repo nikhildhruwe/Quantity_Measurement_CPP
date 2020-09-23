@@ -4,7 +4,7 @@
 
 Length ::Length(double value, Unit unit){
     this->unit = unit;
-    this->value = round(value*(this->unit.conversionValue));
+    this->value = value*(this->unit.conversionValue);
     this->unitType = unit.unitType;
 }
 

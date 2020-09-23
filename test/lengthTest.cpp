@@ -117,69 +117,7 @@ TEST(yardTest, given_1yard_and_3feet_when_compared_should_return_true) {
    bool result = (yard == feet);
    ASSERT_TRUE(result);
 }
-
-// ****** Centimeter Comparision *******
-//3.1
-TEST(centimeterTest, given_2inch_and5cm_when_compared_should_return_true) { 
-   Length inch(2, Unit::INCH), cm(5, Unit::CENTIMETER);
-   bool result = (inch == cm);
-   ASSERT_TRUE(result);
-}
-
-//3.2
-TEST(centimeterTest, given_30cm_1feet_when_compared_should_return_true) { 
-   Length cm(30, Unit::CENTIMETER), feet(1, Unit::FEET);
-   bool result = (cm == feet);
-   ASSERT_TRUE(result);
-}
-
-//3.3
-TEST(centimeterTest, given_90cm_1yard_when_compared_should_return_true) { 
-   Length cm(90, Unit::CENTIMETER), yard(1, Unit::YARD);
-   bool result = (cm == yard);
-   ASSERT_TRUE(result);
-}
-
-//3.4
-TEST(centimeterTest, given_1cm_1yard_when_compared_should_return_false) { 
-   Length cm(1, Unit::CENTIMETER), yard(1, Unit::YARD);
-   bool result = (cm == yard);
-   ASSERT_FALSE(result);
-}
-
-//3.5
-TEST(centimeterTest, given_1cm_1feet_when_compared_should_return_false) { 
-   Length cm(1, Unit::CENTIMETER), feet(1, Unit::FEET);
-   bool result = (cm == feet);
-   ASSERT_FALSE(result);
-}
-
-//3.6
-TEST(centimeterTest, given_1inch_and1cm_when_compared_should_return_false) { 
-   Length inch(1, Unit::INCH), cm(1, Unit::CENTIMETER);
-   bool result = (inch == cm);
-   ASSERT_FALSE(result);
-}
-
-// *** Addition of lengths ***
-TEST(lengthAddition, given_2inch_and_2inch_when_added_should_return_4inches){
-    Length inch1(2, Unit::INCH), inch2(2, Unit::INCH);
-    double result = inch1.addition(inch2);
-    ASSERT_EQ(result, 4);
-}
-
-TEST(lengthAddition, given_values_1feet_and_2inch_when_added_should_return_14inches){
-    Length feet(1, Unit::FEET), inch(2, Unit::INCH);
-    double result = feet.addition(inch);
-    ASSERT_EQ(result, 14);
-}
-
-TEST(lengthAddition, given_values_1feet_and_1feet_when_added_should_return_24inches){
-    Length feet1(1, Unit::FEET), feet2(1, Unit::FEET);
-    double result = feet1.addition(feet2);
-    ASSERT_EQ(result, 24);
-}
-
+   
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
