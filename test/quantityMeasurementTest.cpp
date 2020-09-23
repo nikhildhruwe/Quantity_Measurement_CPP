@@ -227,6 +227,12 @@ TEST(weightTest, given_values_1kg_and_1000gram__should_return_true){
    ASSERT_TRUE(result);
 }
 
+TEST(weightTest, given_values_1tonne_and_1000kg__should_return_true){
+   QuantityMeasurement tonne(1, Unit::TONNE), kg(1000, Unit::KG);
+   bool result =  (kg == tonne);
+   ASSERT_TRUE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
