@@ -239,59 +239,86 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main/feet.obj: main/feet.cpp.obj
+main/length.obj: main/length.cpp.obj
 
-.PHONY : main/feet.obj
-
-# target to build an object file
-main/feet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/feet.cpp.obj
-.PHONY : main/feet.cpp.obj
-
-main/feet.i: main/feet.cpp.i
-
-.PHONY : main/feet.i
-
-# target to preprocess a source file
-main/feet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/feet.cpp.i
-.PHONY : main/feet.cpp.i
-
-main/feet.s: main/feet.cpp.s
-
-.PHONY : main/feet.s
-
-# target to generate assembly for a file
-main/feet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/feet.cpp.s
-.PHONY : main/feet.cpp.s
-
-test/feetTest.obj: test/feetTest.cpp.obj
-
-.PHONY : test/feetTest.obj
+.PHONY : main/length.obj
 
 # target to build an object file
-test/feetTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/feetTest.cpp.obj
-.PHONY : test/feetTest.cpp.obj
+main/length.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.obj
+.PHONY : main/length.cpp.obj
 
-test/feetTest.i: test/feetTest.cpp.i
+main/length.i: main/length.cpp.i
 
-.PHONY : test/feetTest.i
+.PHONY : main/length.i
 
 # target to preprocess a source file
-test/feetTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/feetTest.cpp.i
-.PHONY : test/feetTest.cpp.i
+main/length.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.i
+.PHONY : main/length.cpp.i
 
-test/feetTest.s: test/feetTest.cpp.s
+main/length.s: main/length.cpp.s
 
-.PHONY : test/feetTest.s
+.PHONY : main/length.s
 
 # target to generate assembly for a file
-test/feetTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/feetTest.cpp.s
-.PHONY : test/feetTest.cpp.s
+main/length.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.s
+.PHONY : main/length.cpp.s
+
+main/unit.obj: main/unit.cpp.obj
+
+.PHONY : main/unit.obj
+
+# target to build an object file
+main/unit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/unit.cpp.obj
+.PHONY : main/unit.cpp.obj
+
+main/unit.i: main/unit.cpp.i
+
+.PHONY : main/unit.i
+
+# target to preprocess a source file
+main/unit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/unit.cpp.i
+.PHONY : main/unit.cpp.i
+
+main/unit.s: main/unit.cpp.s
+
+.PHONY : main/unit.s
+
+# target to generate assembly for a file
+main/unit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/unit.cpp.s
+.PHONY : main/unit.cpp.s
+
+test/lengthTest.obj: test/lengthTest.cpp.obj
+
+.PHONY : test/lengthTest.obj
+
+# target to build an object file
+test/lengthTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj
+.PHONY : test/lengthTest.cpp.obj
+
+test/lengthTest.i: test/lengthTest.cpp.i
+
+.PHONY : test/lengthTest.i
+
+# target to preprocess a source file
+test/lengthTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.i
+.PHONY : test/lengthTest.cpp.i
+
+test/lengthTest.s: test/lengthTest.cpp.s
+
+.PHONY : test/lengthTest.s
+
+# target to generate assembly for a file
+test/lengthTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.s
+.PHONY : test/lengthTest.cpp.s
 
 # Help Target
 help:
@@ -310,12 +337,15 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... main/feet.obj
-	@echo ... main/feet.i
-	@echo ... main/feet.s
-	@echo ... test/feetTest.obj
-	@echo ... test/feetTest.i
-	@echo ... test/feetTest.s
+	@echo ... main/length.obj
+	@echo ... main/length.i
+	@echo ... main/length.s
+	@echo ... main/unit.obj
+	@echo ... main/unit.i
+	@echo ... main/unit.s
+	@echo ... test/lengthTest.obj
+	@echo ... test/lengthTest.i
+	@echo ... test/lengthTest.s
 .PHONY : help
 
 

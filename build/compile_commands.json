@@ -1,13 +1,18 @@
 [
 {
   "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\feet.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\main\\feet.cpp",
-  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/feet.cpp"
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\unit.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\main\\unit.cpp",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/unit.cpp"
 },
 {
   "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\feetTest.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\test\\feetTest.cpp",
-  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/test/feetTest.cpp"
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\length.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\main\\length.cpp",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/length.cpp"
+},
+{
+  "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\lengthTest.cpp.obj -c C:\\Users\\NIKHIL\\TerminalCommands\\cpp\\cpp_projects\\Quantity_Measurement_CPP\\test\\lengthTest.cpp",
+  "file": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/test/lengthTest.cpp"
 },
 {
   "directory": "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/googletest/googlemock",
