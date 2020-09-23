@@ -213,6 +213,13 @@ TEST(volumeAddition, given_values_in_litres_and_gallon_when_added_should_be_give
    ASSERT_EQ(result, 7.56);
 }
 
+//6.2
+TEST(volumeAddition, given_values_in_litres_and_ml_when_added_should_be_give_equivalent_result_in_litres){
+   Length litre(1, Unit::LITRE), ml(1000, Unit::ML);
+   double result =  litre.addition(ml);
+   ASSERT_EQ(result, 2);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
