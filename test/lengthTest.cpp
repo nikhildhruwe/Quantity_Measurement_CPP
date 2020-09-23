@@ -154,6 +154,13 @@ TEST(centimeterTest, given_1cm_1feet_when_compared_should_return_false) {
    ASSERT_FALSE(result);
 }
 
+//3.6
+TEST(centimeterTest, given_1inch_and1cm_when_compared_should_return_false) { 
+   Length inch(1, Unit::INCH), cm(1, Unit::CENTIMETER);
+   bool result = (inch == cm);
+   ASSERT_FALSE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
