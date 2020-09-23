@@ -69,6 +69,12 @@ TEST(inchTest, given_icnh1_and_inch2_values__if_not_equal_should_return_false) {
    ASSERT_FALSE(result);
 }
 
+TEST(inchTest, given_inch_and_feet_values_if_base_value_equal_should_return_true) { 
+   Length inch(12, Unit::INCH), feet(1, Unit::FEET);
+   bool result = (inch == feet);
+   ASSERT_TRUE(result);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
