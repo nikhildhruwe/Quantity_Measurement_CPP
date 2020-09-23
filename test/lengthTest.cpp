@@ -28,8 +28,9 @@ TEST(feetTest, given_same_unit_type_should_return_true) {
 
 //1.5
 TEST(feetTest, given_same_value_when_proper_should_be_equal) { 
-   Length feet1(10, Unit::FEET), feet2(10, Unit::FEET);
-   ASSERT_EQ(feet1, feet2);
+   Length feet1(10, Unit::FEET), feet2(20, Unit::FEET);
+   bool result = (feet1 == feet2);
+   ASSERT_FALSE(result);
 }
 
 //1.6
@@ -59,6 +60,13 @@ TEST(inchTest, given_same_unit_type_if_proper_should_return_true) {
    Length inch1(1, Unit::INCH), inch2(1, Unit::INCH);
    bool result = (inch1 == inch2);
    ASSERT_TRUE(result);
+}
+
+//1.10
+TEST(inchTest, given_icnh1_and_inch2_values__if_not_equal_should_return_false) { 
+   Length inch1(10, Unit::INCH), inch2(20, Unit::INCH);
+   bool result = (inch1 == inch2);
+   ASSERT_FALSE(result);
 }
 
 int main(int argc, char **argv) {
