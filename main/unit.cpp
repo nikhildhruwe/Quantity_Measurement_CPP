@@ -1,7 +1,7 @@
 #include "unit.h"
 
 Unit::Unit(double value, UnitType unitType){
-    this->conversionValue = conversionValue;
+    this->conversionValue = value;
     this->unitType = unitType;
 }
 

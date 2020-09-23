@@ -9,12 +9,8 @@ class Unit{
 public:
     double conversionValue;
     UnitType unitType;
-    Unit() {}
-
-private:
+    Unit() {};
     Unit(double, UnitType);
-
-public:
     static const Unit INCH;
     static const Unit FEET;
 };
