@@ -221,16 +221,25 @@ TEST(volumeAdditionTest, given_values_in_litres_and_ml_when_added_should_be_give
 }
 
 //*** weight comparision***
+//7.1
 TEST(weightTest, given_values_1kg_and_1000gram__should_return_true){
    QuantityMeasurement kg(1, Unit::KG), gram(1000, Unit::GRAM);
    bool result =  (kg == gram);
    ASSERT_TRUE(result);
 }
 
+//7.2
 TEST(weightTest, given_values_1tonne_and_1000kg__should_return_true){
    QuantityMeasurement tonne(1, Unit::TONNE), kg(1000, Unit::KG);
    bool result =  (kg == tonne);
    ASSERT_TRUE(result);
+}
+
+//7.3
+TEST(weightTest, given_values_1tonne_and_1000gram__should_be_equal_to_1001kg){
+   QuantityMeasurement tonne(1, Unit::TONNE), gram(1000, Unit::GRAM);
+   double result =  tonne.addition(gram);
+   ASSERT_EQ(result, 1001);
 }
 
 int main(int argc, char **argv) {
