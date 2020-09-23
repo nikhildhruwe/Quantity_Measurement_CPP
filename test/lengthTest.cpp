@@ -174,6 +174,12 @@ TEST(lengthAddition, given_values_1feet_and_2inch_when_added_should_return_14inc
     ASSERT_EQ(result, 14);
 }
 
+TEST(lengthAddition, given_values_1feet_and_1feet_when_added_should_return_24inches){
+    Length feet1(1, Unit::FEET), feet2(1, Unit::FEET);
+    double result = feet1.addition(feet2);
+    ASSERT_EQ(result, 24);
+}
+
 int main(int argc, char **argv) {
    testing::InitGoogleTest(&argc, argv);
    return RUN_ALL_TESTS();
