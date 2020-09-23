@@ -18,3 +18,9 @@ const Unit Unit::GALLON(3.78, VOLUME);
 const Unit Unit::LITRE(1, VOLUME);
 
 const Unit Unit::ML(0.001, VOLUME);
+
+const Unit Unit::KG(1, WEIGHT);
+
+const Unit Unit::GRAM(0.001, WEIGHT);
+
+const Unit Unit::TONNE(1000, WEIGHT);

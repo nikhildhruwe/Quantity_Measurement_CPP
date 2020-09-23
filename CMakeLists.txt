@@ -6,6 +6,6 @@ add_subdirectory(googletest)
 
 include_directories(googletest/include)
 
-add_executable(executeTests main/unit.cpp main/unit.h  main/length.cpp main/length.h test/lengthTest.cpp)
+add_executable(executeTests main/unit.cpp main/unit.h  main/quantityMeasurement.cpp main/quantityMeasurement.h test/quantityMeasurementTest.cpp)
 
 target_link_libraries(executeTests PRIVATE gtest)
