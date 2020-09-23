@@ -1,15 +1,16 @@
 #include "feet.h"
 
-Feet ::Feet(double value){
+Feet ::Feet(double value, Unit unit){
     this->value = value;
+    this->unit = unit;
 }
 
-bool Feet ::  operator == (Feet other) const{
-    return (this->value == other.value);
+bool Feet ::  operator == (Feet other) const{ // value check & type check
+    return (this->value == other.value) && (this->unit == other.unit);
 }
 
 bool Feet ::  operator != (Feet *other) const{ // Null check
-    return !( this == other);
+    return ( this == other);
 }
 
 bool Feet::operator == (Feet *other) const { // reference check
