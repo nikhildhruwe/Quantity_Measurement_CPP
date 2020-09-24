@@ -3,13 +3,13 @@
 #include <iostream>
 using namespace std;
 
-class QuantityMeasurement{
+class Quantity{
 public :
    UnitType unitType;
    Unit unit;
    double value;
-   QuantityMeasurement(double, Unit);
-   bool operator == (QuantityMeasurement) const;
-   bool operator == (QuantityMeasurement *) const;
-   double addition (QuantityMeasurement) const;
+   Quantity(double, Unit);
+   bool operator == (Quantity) const;
+   bool operator == (Quantity *) const;
+   double addition (Quantity) const;
 };
