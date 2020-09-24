@@ -27,7 +27,7 @@ TEST(feetTest, given_same_unit_type_should_return_true) {
 }
 
 //1.5
-TEST(feetTest, given_same_value_when_proper_should_be_equal) { 
+TEST(feetTest, given_same_10feet_and_20feet_when_compared_should_return_false) { 
    QuantityMeasurement feet1(10, Unit::FEET), feet2(20, Unit::FEET);
    bool result = (feet1 == feet2);
    ASSERT_FALSE(result);
@@ -194,14 +194,14 @@ TEST(lengthAdditionTest, given_values_of_inches_and_cm_when_added_should_return_
 //5.1
 TEST(volumeComparisionTest, given_values_in_gallon_and_litres_when_compared_should_be_true ){
    QuantityMeasurement gallon(1, Unit::GALLON), litre(3.78, Unit::LITRE);
-   bool result =  (gallon == litre);
+   bool result = (gallon == litre);
    ASSERT_TRUE(result);
 }
 
 //5.2
 TEST(volumeComparisionTest, given_values_in_litres_and_ml_when_compared_should_be_true ){
    QuantityMeasurement litre(1, Unit::LITRE), ml(1000, Unit::ML);
-   bool result =  (litre == ml);
+   bool result = (litre == ml);
    ASSERT_TRUE(result);
 }
 
