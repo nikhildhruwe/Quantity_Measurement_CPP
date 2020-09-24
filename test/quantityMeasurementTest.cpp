@@ -10,7 +10,8 @@ TEST(feetTest, 0feet_and_0feet_should_return_equal) {
 //1.2
 TEST(feetTest, given_null_value_should_return_false) { 
    QuantityMeasurement feet1(1, Unit::FEET);
-   ASSERT_NE(&feet1, nullptr);
+   bool result = (&feet1 == nullptr);
+   ASSERT_FALSE(result);
 }
 
 //1.3
