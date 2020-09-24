@@ -33,6 +33,8 @@
         "string_view": "cpp",
         "iomanip": "cpp",
         "ostream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "memory": "cpp",
+        "fstream": "cpp"
     }
 }

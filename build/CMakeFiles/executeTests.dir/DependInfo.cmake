@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/length.cpp" "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/CMakeFiles/executeTests.dir/main/length.cpp.obj"
+  "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/quantityMeasurement.cpp" "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj"
   "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/main/unit.cpp" "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/CMakeFiles/executeTests.dir/main/unit.cpp.obj"
-  "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/test/lengthTest.cpp" "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj"
+  "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/test/quantityMeasurementTest.cpp" "C:/Users/NIKHIL/TerminalCommands/cpp/cpp_projects/Quantity_Measurement_CPP/build/CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

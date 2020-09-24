@@ -89,46 +89,46 @@ CMakeFiles/executeTests.dir/main/unit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/unit.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\unit.cpp -o CMakeFiles\executeTests.dir\main\unit.cpp.s
 
-CMakeFiles/executeTests.dir/main/length.cpp.obj: CMakeFiles/executeTests.dir/flags.make
-CMakeFiles/executeTests.dir/main/length.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
-CMakeFiles/executeTests.dir/main/length.cpp.obj: ../main/length.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executeTests.dir/main/length.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\main\length.cpp.obj -c C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\length.cpp
+CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj: CMakeFiles/executeTests.dir/flags.make
+CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
+CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj: ../main/quantityMeasurement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\main\quantityMeasurement.cpp.obj -c C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\quantityMeasurement.cpp
 
-CMakeFiles/executeTests.dir/main/length.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/main/length.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\length.cpp > CMakeFiles\executeTests.dir\main\length.cpp.i
+CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\quantityMeasurement.cpp > CMakeFiles\executeTests.dir\main\quantityMeasurement.cpp.i
 
-CMakeFiles/executeTests.dir/main/length.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/length.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\length.cpp -o CMakeFiles\executeTests.dir\main\length.cpp.s
+CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\main\quantityMeasurement.cpp -o CMakeFiles\executeTests.dir\main\quantityMeasurement.cpp.s
 
-CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj: CMakeFiles/executeTests.dir/flags.make
-CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
-CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj: ../test/lengthTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\test\lengthTest.cpp.obj -c C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\lengthTest.cpp
+CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj: CMakeFiles/executeTests.dir/flags.make
+CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
+CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj: ../test/quantityMeasurementTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\test\quantityMeasurementTest.cpp.obj -c C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\quantityMeasurementTest.cpp
 
-CMakeFiles/executeTests.dir/test/lengthTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/test/lengthTest.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\lengthTest.cpp > CMakeFiles\executeTests.dir\test\lengthTest.cpp.i
+CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\quantityMeasurementTest.cpp > CMakeFiles\executeTests.dir\test\quantityMeasurementTest.cpp.i
 
-CMakeFiles/executeTests.dir/test/lengthTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/test/lengthTest.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\lengthTest.cpp -o CMakeFiles\executeTests.dir\test\lengthTest.cpp.s
+CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\NIKHIL\TerminalCommands\cpp\cpp_projects\Quantity_Measurement_CPP\test\quantityMeasurementTest.cpp -o CMakeFiles\executeTests.dir\test\quantityMeasurementTest.cpp.s
 
 # Object files for target executeTests
 executeTests_OBJECTS = \
 "CMakeFiles/executeTests.dir/main/unit.cpp.obj" \
-"CMakeFiles/executeTests.dir/main/length.cpp.obj" \
-"CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj"
+"CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj" \
+"CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj"
 
 # External object files for target executeTests
 executeTests_EXTERNAL_OBJECTS =
 
 executeTests.exe: CMakeFiles/executeTests.dir/main/unit.cpp.obj
-executeTests.exe: CMakeFiles/executeTests.dir/main/length.cpp.obj
-executeTests.exe: CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj
+executeTests.exe: CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj
+executeTests.exe: CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj
 executeTests.exe: CMakeFiles/executeTests.dir/build.make
 executeTests.exe: lib/libgtestd.a
 executeTests.exe: CMakeFiles/executeTests.dir/linklibs.rsp

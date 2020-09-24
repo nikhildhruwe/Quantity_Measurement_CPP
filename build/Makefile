@@ -239,32 +239,32 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main/length.obj: main/length.cpp.obj
+main/quantityMeasurement.obj: main/quantityMeasurement.cpp.obj
 
-.PHONY : main/length.obj
+.PHONY : main/quantityMeasurement.obj
 
 # target to build an object file
-main/length.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.obj
-.PHONY : main/length.cpp.obj
+main/quantityMeasurement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.obj
+.PHONY : main/quantityMeasurement.cpp.obj
 
-main/length.i: main/length.cpp.i
+main/quantityMeasurement.i: main/quantityMeasurement.cpp.i
 
-.PHONY : main/length.i
+.PHONY : main/quantityMeasurement.i
 
 # target to preprocess a source file
-main/length.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.i
-.PHONY : main/length.cpp.i
+main/quantityMeasurement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.i
+.PHONY : main/quantityMeasurement.cpp.i
 
-main/length.s: main/length.cpp.s
+main/quantityMeasurement.s: main/quantityMeasurement.cpp.s
 
-.PHONY : main/length.s
+.PHONY : main/quantityMeasurement.s
 
 # target to generate assembly for a file
-main/length.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/length.cpp.s
-.PHONY : main/length.cpp.s
+main/quantityMeasurement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/quantityMeasurement.cpp.s
+.PHONY : main/quantityMeasurement.cpp.s
 
 main/unit.obj: main/unit.cpp.obj
 
@@ -293,32 +293,32 @@ main/unit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/unit.cpp.s
 .PHONY : main/unit.cpp.s
 
-test/lengthTest.obj: test/lengthTest.cpp.obj
+test/quantityMeasurementTest.obj: test/quantityMeasurementTest.cpp.obj
 
-.PHONY : test/lengthTest.obj
+.PHONY : test/quantityMeasurementTest.obj
 
 # target to build an object file
-test/lengthTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.obj
-.PHONY : test/lengthTest.cpp.obj
+test/quantityMeasurementTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.obj
+.PHONY : test/quantityMeasurementTest.cpp.obj
 
-test/lengthTest.i: test/lengthTest.cpp.i
+test/quantityMeasurementTest.i: test/quantityMeasurementTest.cpp.i
 
-.PHONY : test/lengthTest.i
+.PHONY : test/quantityMeasurementTest.i
 
 # target to preprocess a source file
-test/lengthTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.i
-.PHONY : test/lengthTest.cpp.i
+test/quantityMeasurementTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.i
+.PHONY : test/quantityMeasurementTest.cpp.i
 
-test/lengthTest.s: test/lengthTest.cpp.s
+test/quantityMeasurementTest.s: test/quantityMeasurementTest.cpp.s
 
-.PHONY : test/lengthTest.s
+.PHONY : test/quantityMeasurementTest.s
 
 # target to generate assembly for a file
-test/lengthTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/lengthTest.cpp.s
-.PHONY : test/lengthTest.cpp.s
+test/quantityMeasurementTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/quantityMeasurementTest.cpp.s
+.PHONY : test/quantityMeasurementTest.cpp.s
 
 # Help Target
 help:
@@ -337,15 +337,15 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... main/length.obj
-	@echo ... main/length.i
-	@echo ... main/length.s
+	@echo ... main/quantityMeasurement.obj
+	@echo ... main/quantityMeasurement.i
+	@echo ... main/quantityMeasurement.s
 	@echo ... main/unit.obj
 	@echo ... main/unit.i
 	@echo ... main/unit.s
-	@echo ... test/lengthTest.obj
-	@echo ... test/lengthTest.i
-	@echo ... test/lengthTest.s
+	@echo ... test/quantityMeasurementTest.obj
+	@echo ... test/quantityMeasurementTest.i
+	@echo ... test/quantityMeasurementTest.s
 .PHONY : help
 
 
